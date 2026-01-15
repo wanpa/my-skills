@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 // greet.js - システム情報と一緒に挨拶を表示するスクリプト
 
-const os = require('os');
-const path = require('path');
+import os from 'os';
 
 const now = new Date();
 const dateStr = now.toLocaleString('ja-JP', {
